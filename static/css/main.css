@@ -1,0 +1,22 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  font: 40px Georgia;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  background-color: #c9daf8ff;
+  color: #0b5394;
+  padding: 10px 20px;
+  font-size: 150px;
+  text-align: center;
