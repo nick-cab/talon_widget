@@ -5,18 +5,17 @@
 
 .image-container img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 750px;
+  height: 270px
 }
 
 .overlay-text {
   position: absolute;
-  font: 40px Georgia;
-  top: 50%;
+  font: 50px Georgia;
+  top: 60%;
   left: 50%;
-  transform: translate(-60%, -50%);
+  transform: translate(-65%, -50%);
   background-color: #c9daf8ff;
   color: #0b5394;
   padding: 10px 20px;
-  font-size: 150px;
   text-align: center;
