@@ -11,7 +11,10 @@ locations = db["Locations"]
 @app.route("/", methods= ["POST","GET"])
 def index():
     c = locations.find_one({"current": True})
-    currentLocation = c["locN"]
+    if c == None:
+        currentLocation = "N/A"
+    else: 
+        currentLocation = c["locN"]
     return render_template('index.html',current = currentLocation)
 
 if __name__ == "__main__":
