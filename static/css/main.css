@@ -11,12 +11,12 @@
 
 .overlay-text {
   position: absolute;
-  font: 25px Georgia;
+  font: 24px Georgia;
   top: 60%;
   left: 60%;
   transform: translate(-65%, -50%);
   background-color: #c9daf8ff;
   color: #0b5394;
-  padding: 10px 20px;
+  padding: 7px 10px;
   text-align: center;
 } 
