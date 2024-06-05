@@ -10,6 +10,7 @@
 }
 
 .overlay-text {
+  width: 70px;
   position: absolute;
   font: 24px Georgia;
   top: 60%;
