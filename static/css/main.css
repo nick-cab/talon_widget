@@ -11,7 +11,7 @@
 
 .overlay-text {
   position: absolute;
-  font: 35px Georgia;
+  font: 30px Georgia;
   top: 68%;
   left: 55%;
   transform: translate(-65%, -50%);
