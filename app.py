@@ -12,8 +12,8 @@ locations = db["Locations"]
 def index():
     c = locations.find_one({"current": True})
     if c == None:
-        currentLocation = "N/A"
-    else: 
+        currentLocation = "UNAVAILABLE"
+    else:
         currentLocation = c["locN"]
     return render_template('index.html',current = currentLocation)
 
