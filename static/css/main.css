@@ -5,13 +5,13 @@
 
 .image-container img {
   display: block;
-  width: 482px;
-  height: 174px
+  width: 385.6px;
+  height: 139.2px
 }
 
 .overlay-text {
   position: absolute;
-  font: 32px Georgia;
+  font: 35px Georgia;
   top: 68%;
   left: 55%;
   transform: translate(-65%, -50%);
