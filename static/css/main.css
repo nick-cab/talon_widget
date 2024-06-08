@@ -5,8 +5,8 @@
 
 .image-container img {
   display: block;
-  width: 465px;
-  height: 210px
+  width: 372px;
+  height: 168px
 }
 
 .overlay-text {
@@ -15,7 +15,7 @@
   border-style: solid;
   border-color: #1c4587;
   position: absolute;
-  font: 30px Georgia;
+  font: 25px Georgia;
   top: 60%;
   left: 56%;
   transform: translate(-65%, -50%);
