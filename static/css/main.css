@@ -5,17 +5,20 @@
 
 .image-container img {
   display: block;
-  width: 385.6px;
-  height: 139.2px
+  width: 465px;
+  height: 180px
 }
 
 .overlay-text {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #1c4587;
   position: absolute;
   font: 30px Georgia;
-  top: 68%;
-  left: 55%;
+  top: 60%;
+  left: 58%;
   transform: translate(-65%, -50%);
-  background-color: #c9daf8ff;
+  background-color: #fff2ccff;
   color: #0b5394;
   padding: 10px 20px;
   text-align: center;
