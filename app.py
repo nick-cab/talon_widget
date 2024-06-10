@@ -15,7 +15,7 @@ def index():
     c = locations.find_one({"current": True})
     if c == None:
         currentLocation = "UNAVAILABLE"
-        t = 0
+        t = "N/A"
     else:
         currentLocation = c["locN"]
         t = to_integer(c["time"])
