@@ -8,7 +8,7 @@ db = cluster["Tracker"]
 locations = db["Locations"]
 #chrome://net-internals/#sockets
 def to_integer(dt_time):
-    return f"{calendar.month_name[dt_time.month]} {dt_time.day} {current['time'].strftime("%-I:%M %p")}"
+    return f"{calendar.month_name[dt_time.month]} {dt_time.day} { dt_time.strftime('%-I:%M%p') }"
 
 @app.route("/", methods= ["POST","GET"])
 def index():
