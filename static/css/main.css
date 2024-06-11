@@ -32,10 +32,23 @@
   border-color: #1c4587;
   position: absolute;
   font: 12px Georgia;
-  top: 79%;
+  top: 93%;
   left: 55%;
   transform: translate(-65%, -50%);
   background-color: #fff2ccff;
+  color: #0b5394;
+  padding: 5px 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+.title{
+  border-radius: 10px;
+  border-color: #1c4587;
+  position: absolute;
+  font: 25px Georgia;
+  top: 19%;
+  left: 60%;
+  transform: translate(-65%, -50%);
   color: #0b5394;
   padding: 5px 10px;
   text-align: center;
