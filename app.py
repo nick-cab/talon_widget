@@ -13,9 +13,12 @@ def to_integer(dt_time):
 @app.route("/", methods= ["POST","GET"])
 def index():
     c = locations.find_one({"current": True})
-    if c == None:
+    rn = datetime.utcnow()
+    if rn.hour > 4 or (rn.hour == 4 and rn.minute == 20):
+        currentLocation = "idk"
+    elif c == None:
         currentLocation = "UNAVAILABLE"
-        t = "N/A"
+        t = to_integer(locations.find_one({"n":"notavail"})["c"])
     else:
         currentLocation = c["locN"]
         t = to_integer(c["time"])
