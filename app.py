@@ -14,9 +14,7 @@ def to_integer(dt_time):
 def index():
     c = locations.find_one({"current": True})
     rn = datetime.utcnow()
-    if rn.hour > 4 or (rn.hour == 4 and rn.minute == 20):
-        currentLocation = "idk"
-    elif c == None:
+    if c == None:
         currentLocation = "UNAVAILABLE"
         t = to_integer(locations.find_one({"n":"notavail"})["c"])
     else:
